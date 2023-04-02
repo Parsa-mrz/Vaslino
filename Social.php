@@ -1,13 +1,14 @@
 <?php 
 /*
-Plugin Name:  Social Media Icons
+Plugin Name:  Social Media
 Plugin URI: #
 Description: This plugin allows you to add social media icons to your application and web pages
 Author: Parsa Mirzaie
 Author URI: https://eskanogroup.com
+Text Domain: Social
 License: GPL2
 */
-
+// defined( 'ABSPATH' ) || exit;
 class Social{
     public function __construct(){
         $this->define_constant();
