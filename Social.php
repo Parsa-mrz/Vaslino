@@ -30,12 +30,17 @@ class Social{
         register_deactivation_hook( __FILE__, [$this,'deactivation']);
         $this->registerMenu();
         $this->registerOptions();
+        $this->registerTemplate();
       }
       public function registerMenu(){
         include_once(SOC_DIR . '/inc/admin/AddMenu.php');
       }
       public function registerOptions(){
         include_once(SOC_DIR . '/inc/admin/AddOptions.php');
+      }
+
+      public function registerTemplate(){
+        include_once(SOC_DIR . '/inc/user/RegisterTemplate.php');
       }
 }
 new Social();
