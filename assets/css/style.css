@@ -1,0 +1,55 @@
+.social-dropdown {
+    position: relative;
+    display: inline-block;
+    margin: 20px;
+  }
+  
+  .social-dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 20px;
+    height: 60px;
+    width: 60px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .social-dropbtn:hover {
+    transform: scale(1.1);
+  }
+  
+  .social-dropdown-content {
+    display: none;
+    position: absolute;
+    bottom: -150px;
+    left: -75px;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border-radius: 50%;
+    z-index: 1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .social-dropdown-content a {
+    color: black;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .social-dropdown-content a:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .social-dropdown.active .social-dropbtn {
+    background-color: #3b8dbd;
+    transform: rotate(45deg);
+  }
+  
+  .social-dropdown.active .social-dropdown-content {
+    display: block;
+  }
