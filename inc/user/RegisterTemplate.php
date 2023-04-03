@@ -4,9 +4,9 @@ class RegisterTemplate{
 
     public function __construct(){
         add_action( 'wp_enqueue_scripts',[$this,'add_templates'] );
-        add_action( 'wp_footer', [$this,'add_template_to_pages'] );
-        $this->add_template_to_pages();
-
+        if(!is_admin()){
+            add_action( 'wp_footer', [$this,'add_template_to_pages'] );
+        }
     }
     public function add_templates() {
         

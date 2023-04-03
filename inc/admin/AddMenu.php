@@ -19,7 +19,7 @@ class AddMenu{
     public function socialOptionsPage(){
         ?>
         <div class="wrap">
-          <h1>Social Media Settings</h1>
+          <h1><?php _e('Social Media Settings')?></h1>
           <form method="post" action="options.php">
             <?php settings_fields('social-media-settings-group'); ?>
             <?php do_settings_sections('social-media'); ?>

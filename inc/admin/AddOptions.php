@@ -12,7 +12,7 @@ class AddOptions{
             'social_media',
             'Social Media Links',
             [$this,'social_media_options_section'],
-            'social-media'
+            'social-media',
         );
     }
 
@@ -23,7 +23,7 @@ class AddOptions{
     }
 
     public function social_media_options_section(){
-        echo '<p>Enter your social media links below:</p>';
+        include_once(SOC_DIR . '/inc/admin/templates/Options.php');
     }
 }
 new AddOptions();
