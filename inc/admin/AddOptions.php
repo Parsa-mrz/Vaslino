@@ -19,7 +19,8 @@ class AddOptions{
     public function settingInit(){
         include(SOC_DIR . 'inc/admin/socialMedias/Facebook.php');
         include(SOC_DIR . 'inc/admin/socialMedias/Twitter.php');
-        include(SOC_DIR . 'inc/admin/socialMedias/Instagram.php');      
+        include(SOC_DIR . 'inc/admin/socialMedias/Instagram.php'); 
+        include(SOC_DIR . 'inc/admin/socialMedias/Whatsapp.php');      
     }
 
     public function social_media_options_section(){

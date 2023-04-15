@@ -1,6 +1,14 @@
-const socialDropdown = document.querySelector('.social-dropdown');
-const socialDropbtn = document.querySelector('.social-dropbtn');
+$(document).ready(function () {
+  $("#contact_us_button").click(function () {
 
-socialDropbtn.addEventListener('click', () => {
-  socialDropdown.classList.toggle('active');
+      $("#contact_us_slide").slideToggle("slow");
+  })
+});
+
+$(document).ready(function () {
+  $("#contact_us_button").click(function () {
+
+      $("#contact_us_slide_open").slideToggle(0);
+      $("#contact_us_slide_close").slideToggle(0);
+  })
 });

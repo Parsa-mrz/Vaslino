@@ -1,6 +1,6 @@
 <?php 
 
-class AddMenu{
+class AddMenus{
 
     public function __construct(){
         add_action('admin_menu', [$this,'socialMenu']);
@@ -29,4 +29,4 @@ class AddMenu{
         <?php
     }
 }
-new AddMenu();
+new AddMenus();

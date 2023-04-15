@@ -1,9 +1,10 @@
 <?php 
 /*
-Plugin Name:  Social Media
+Plugin Name:  Vaslino
 Plugin URI: #
-Description: This plugin allows you to add social media icons to your application and web pages
+Description: The Vaslino allows you to add social media icons to your application and web pages and your customers can connect to your social networks.
 Author: Parsa Mirzaie
+Version: 1.0.0
 Author URI: https://eskanogroup.com
 Text Domain: Social
 License: GPL2

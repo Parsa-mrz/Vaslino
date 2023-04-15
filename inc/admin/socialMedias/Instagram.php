@@ -21,9 +21,5 @@ class Instagram{
         $value = get_option('social_media_instagram');
         echo "<input placeholder='Instagram link' type='text' name='social_media_instagram' value='$value' />";
     }
-    public static function GetOptioninstagram(){
-        $instagram = get_option('social_media_instagram');
-        echo $instagram;
-    }
 }
 new Instagram();
