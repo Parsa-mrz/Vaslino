@@ -1,6 +1,6 @@
 === Vaslino ===
-Contributors: (this should be a list of wordpress.org userid's)
-Donate link: ٫
+Contributors: parsa01
+Donate link: #
 Tags: social,
 Requires at least: 3.0.1
 Tested up to: 6.2
