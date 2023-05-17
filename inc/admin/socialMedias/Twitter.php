@@ -1,6 +1,6 @@
 <?php 
 
-class Twitter{
+class SocialTwitter{
 
     public function __construct() {
         $this->register();
@@ -26,4 +26,4 @@ class Twitter{
         echo $twitter;
     }
 }
-new twitter();
+new SocialTwitter();

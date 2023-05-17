@@ -1,6 +1,6 @@
 <?php 
 
-class Facebook{
+class SocialFacebook{
 
     public function __construct() {
         $this->register();
@@ -26,4 +26,4 @@ class Facebook{
         echo $facebook;
     }
 }
-new Facebook();
+new SocialFacebook();

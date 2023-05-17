@@ -1,6 +1,6 @@
 <?php 
 
-class Instagram{
+class SocialInstagram{
 
     public function __construct() {
         $this->register();
@@ -22,4 +22,4 @@ class Instagram{
         echo "<input placeholder='Instagram link' type='text' name='social_media_instagram' value='$value' />";
     }
 }
-new Instagram();
+new SocialInstagram();

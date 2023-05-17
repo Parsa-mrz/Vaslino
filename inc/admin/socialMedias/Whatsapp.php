@@ -1,6 +1,6 @@
 <?php 
 
-class Whatsapp{
+class SocialWhatsapp{
 
     public function __construct() {
         $this->register();
@@ -27,4 +27,4 @@ class Whatsapp{
         echo $whatsapp;
     }
 }
-new whatsapp();
+new SocialWhatsapp();
