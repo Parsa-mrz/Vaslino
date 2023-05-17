@@ -30,6 +30,7 @@ class Social{
       public function init(){
         register_activation_hook( __FILE__, [$this,'activation']);
         register_deactivation_hook( __FILE__, [$this,'deactivation']);
+        add_action( 'wp_enqueue_scripts', [$this,'register_script'] );
         $this->registerMenu();
         $this->registerOptions();
         $this->registerTemplate();
@@ -43,6 +44,17 @@ class Social{
 
       public function registerTemplate(){
         include_once(SOC_DIR . '/inc/user/RegisterTemplate.php');
+      }
+
+      public function register_script(){
+        wp_register_style( 'Social_style', SOC_URL . 'assets/css/style.css');
+        wp_enqueue_style( 'Social_style' );
+
+        wp_register_style( 'icons_style', SOC_URL . 'assets/css/all.css');
+        wp_enqueue_style( 'icons_style' );
+
+        wp_register_script( 'social_script', SOC_URL . 'assets/js/script.js',['jquery']);
+        wp_enqueue_script( 'social_script' );
       }
 }
 new Social();

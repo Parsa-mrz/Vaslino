@@ -20,12 +20,6 @@ $colors = [
    <?php
   $non_empty_links = array_filter($links);
       if(!empty($non_empty_links)){?>
-      <head>
-          <link rel="stylesheet" href="<?= SOC_URL . 'assets/css/style.css' ?>">
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-          <script src='<?= SOC_URL . 'assets/js/jquery.min.js' ?>'></script>
-          <script src='<?= SOC_URL . 'assets/js/script.js' ?>'></script>
-      </head>
  <div id="contact_us" class="me-5 d-flex flex-column align-items-start justify-content-end">
         <div id="contact_us_slide" class="">
             <ul class="text-dark">

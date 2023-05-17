@@ -1,11 +1,11 @@
-$(document).ready(function () {
+jQuery(document).ready(function ($) {
   $("#contact_us_button").click(function () {
 
       $("#contact_us_slide").slideToggle("slow");
   })
 });
 
-$(document).ready(function () {
+jQuery(document).ready(function ($) {
   $("#contact_us_button").click(function () {
 
       $("#contact_us_slide_open").slideToggle(0);
