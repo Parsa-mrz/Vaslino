@@ -3,6 +3,7 @@ Contributors: parsa01
 Donate link: #
 Tags: social,
 Requires at least: 3.0.1
+Requires PHP: 7.4
 Tested up to: 6.2
 Stable tag: 1.0.0
 License: GPLv2 or later
@@ -21,8 +22,12 @@ e.g.
 2. Activate the plugin through the 'Plugins' menu in WordPress
 
 == Frequently Asked Questions ==
+1- How should i add another social media?
+It's easy. just contact user
 
 == Screenshots ==
+1. Menu upload for Users
+2. Settings for Users
 
 == Changelog ==
 = 1.0 =
