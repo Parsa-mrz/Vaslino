@@ -1,6 +1,6 @@
 <?php
 
-class AddOptions
+class AddOptionsToAdminMenu
 {
 
     public function __construct()
@@ -20,15 +20,15 @@ class AddOptions
 
     public function settingInit()
     {
-        include(SOCIAL_DIR . 'inc/admin/socialMedias/Facebook.php');
-        include(SOCIAL_DIR . 'inc/admin/socialMedias/Twitter.php');
-        include(SOCIAL_DIR . 'inc/admin/socialMedias/Instagram.php');
-        include(SOCIAL_DIR . 'inc/admin/socialMedias/Whatsapp.php');
+        include(SOCL_DIR . 'inc/admin/socialMedias/Facebook.php');
+        include(SOCL_DIR . 'inc/admin/socialMedias/Twitter.php');
+        include(SOCL_DIR . 'inc/admin/socialMedias/Instagram.php');
+        include(SOCL_DIR . 'inc/admin/socialMedias/Whatsapp.php');
     }
 
     public function social_media_options_section()
     {
-        include_once(SOCIAL_DIR . '/inc/admin/templates/Options.php');
+        include_once(SOCL_DIR . '/inc/admin/templates/Options.php');
     }
 }
-new AddOptions();
+new AddOptionsToAdminMenu();

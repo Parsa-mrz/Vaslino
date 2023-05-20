@@ -1,6 +1,6 @@
 <?php
 
-class RegisterTemplate
+class RegisterTemplateForSocial
 {
 
     public function __construct()
@@ -13,12 +13,12 @@ class RegisterTemplate
     public function add_templates()
     {
 
-        wp_enqueue_script('index', SOCIAL_DIR . 'inc/user/templates/social_icons.php', array(), '1.0', true);
+        wp_enqueue_script('index', SOCL_DIR . 'inc/user/templates/social_icons.php', array(), '1.0', true);
     }
 
     public function add_template_to_pages()
     {
-        include_once(SOCIAL_DIR . 'inc/user/templates/social_icons.php');
+        include_once(SOCL_DIR . 'inc/user/templates/social_icons.php');
     }
 }
-new RegisterTemplate();
+new RegisterTemplateForSocial();

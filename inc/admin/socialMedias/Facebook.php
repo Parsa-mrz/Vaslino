@@ -1,6 +1,6 @@
 <?php 
 
-class SocialFacebook{
+class AddFacebookToSocial{
 
     public function __construct() {
         $this->register();
@@ -19,11 +19,7 @@ class SocialFacebook{
     }
     public function social_media_facebook_callback(){
         $value = get_option('social_media_facebook');
-        echo "<input placeholder='Facebook link' type='text'  name='social_media_facebook' value='$value' />";
-    }
-    public static function GetOptionFacebook(){
-        $facebook = get_option('social_media_facebook');
-        echo $facebook;
+        echo esc_html("<input placeholder='Facebook link' type='text'  name='social_media_facebook' value='$value' />");
     }
 }
-new SocialFacebook();
+new AddFacebookToSocial();

@@ -1,6 +1,6 @@
 <?php 
 
-class SocialWhatsapp{
+class AddWhatsappToSocial{
 
     public function __construct() {
         $this->register();
@@ -20,11 +20,7 @@ class SocialWhatsapp{
     }
     public function social_media_whatsapp_callback(){
         $value = get_option('social_media_whatsapp');
-        echo "<input placeholder='whatsapp link' type='text'  name='social_media_whatsapp' value='$value' />";
-    }
-    public static function GetOptionwhatsapp(){
-        $whatsapp = get_option('social_media_whatsapp');
-        echo $whatsapp;
+        echo esc_html("<input placeholder='whatsapp link' type='text'  name='social_media_whatsapp' value='$value' />");
     }
 }
-new SocialWhatsapp();
+new AddWhatsappToSocial();

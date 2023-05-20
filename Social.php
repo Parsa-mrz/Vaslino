@@ -25,8 +25,8 @@ class Social
   }
   public function define_constant()
   {
-    define("SOCIAL_DIR", plugin_dir_path(__FILE__));
-    define("SOCIAL_URL", plugin_dir_url(__FILE__));
+    define("SOCL_DIR", plugin_dir_path(__FILE__));
+    define("SOCL_URL", plugin_dir_url(__FILE__));
   }
   public function init()
   {
@@ -39,27 +39,27 @@ class Social
   }
   public function registerMenu()
   {
-    include_once(SOCIAL_DIR . '/inc/admin/AddMenu.php');
+    include_once(SOCL_DIR . '/inc/admin/AddMenu.php');
   }
   public function registerOptions()
   {
-    include_once(SOCIAL_DIR . '/inc/admin/AddOptions.php');
+    include_once(SOCL_DIR . '/inc/admin/AddOptions.php');
   }
 
   public function registerTemplate()
   {
-    include_once(SOCIAL_DIR . '/inc/user/RegisterTemplate.php');
+    include_once(SOCL_DIR . '/inc/user/RegisterTemplate.php');
   }
 
   public function register_script()
   {
-    wp_register_style('Social_style', SOCIAL_URL . 'assets/css/style.css');
+    wp_register_style('Social_style', SOCL_URL . 'assets/css/style.css');
     wp_enqueue_style('Social_style');
 
-    wp_register_style('icons_style', SOCIAL_URL . 'assets/css/all.css');
+    wp_register_style('icons_style', SOCL_URL . 'assets/css/all.css');
     wp_enqueue_style('icons_style');
 
-    wp_register_script('social_script', SOCIAL_URL . 'assets/js/script.js', ['jquery']);
+    wp_register_script('social_script', SOCL_URL . 'assets/js/script.js', ['jquery']);
     wp_enqueue_script('social_script');
   }
 }

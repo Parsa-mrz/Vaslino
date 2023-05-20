@@ -1,6 +1,6 @@
 <?php 
 
-class SocialTwitter{
+class AddTwitterToSocial{
 
     public function __construct() {
         $this->register();
@@ -19,11 +19,7 @@ class SocialTwitter{
     }
     public function social_media_twitter_callback(){
         $value = get_option('social_media_twitter');
-        echo "<input placeholder='Twitter link' type='text' name='social_media_twitter' value='$value' />";
-    }
-    public static function GetOptionTwitter(){
-        $twitter = get_option('social_media_twitter');
-        echo $twitter;
+        echo esc_html("<input placeholder='Twitter link' type='text' name='social_media_twitter' value='$value' />");
     }
 }
-new SocialTwitter();
+new AddTwitterToSocial();
