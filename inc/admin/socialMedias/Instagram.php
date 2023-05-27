@@ -19,7 +19,7 @@ class AddInstagramToSocial{
     }
     public function social_media_instagram_callback(){
         $value = get_option('social_media_instagram');
-        echo esc_html("<input placeholder='Instagram link' type='text' name='social_media_instagram' value='$value' />");
+        echo "<input placeholder='Instagram link' type='text' name='social_media_instagram' value='$value' />";
     }
 }
 new AddInstagramToSocial();

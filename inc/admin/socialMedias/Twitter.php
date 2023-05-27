@@ -19,7 +19,7 @@ class AddTwitterToSocial{
     }
     public function social_media_twitter_callback(){
         $value = get_option('social_media_twitter');
-        echo esc_html("<input placeholder='Twitter link' type='text' name='social_media_twitter' value='$value' />");
+        echo "<input placeholder='Twitter link' type='text' name='social_media_twitter' value='$value' />";
     }
 }
 new AddTwitterToSocial();
