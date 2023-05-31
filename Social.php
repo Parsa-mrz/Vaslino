@@ -8,8 +8,11 @@ Version: 1.0.0
 Author URI: https://eskanogroup.com
 Text Domain: Social
 License: GPL2
+Developers => 
+          Parsa Mirzaie -> PHP Developer : https://github.com/Parsa-mrz/
+          Masih Balali -> Front-End Developer : https://github.com/Masihbalali
 */
-// defined( 'ABSPATH' ) || exit;
+defined( 'ABSPATH' ) || exit;
 class Social
 {
   public function __construct()
