@@ -25,16 +25,16 @@ $colors = [
             <ul class="text-dark">
             <?php
   if ($links['facebook']) {?>
-              <a href="<?php echo esc_html( 'https://' . $links['facebook'] ) ?>"><li id="li_1"><i class="fa-brands fa-facebook-f fa-2xl "  style="color: #4267B2;"></i></li></a>
+              <a href="<?php echo 'https://' . $links['facebook']  ?>"><li id="li_1"><i class="fa-brands fa-facebook-f fa-2xl "  style="color: #4267B2;"></i></li></a>
                 <?php
   }if ($links['twitter']) {?>
-              <a href="<?php echo esc_html( 'https://' . $links['twitter'] ) ?>"><li id="li_3"><i class="fa-brands fa-twitter fa-2xl " style="color: #00acee;"></i></li><a>
+              <a href="<?php echo  'https://' . $links['twitter']  ?>"><li id="li_3"><i class="fa-brands fa-twitter fa-2xl " style="color: #00acee;"></i></li><a>
                 <?php
   }if ($links['instagram']) {?>
-              <a href="<?php echo esc_html( 'https://' . $links['instagram'] ) ?>"><li id="li_2"><i class="fa-brands  fa-instagram fa-2xl instagram"style="color: #e81f76;"></i></li><a>
+              <a href="<?php echo  'https://' . $links['instagram']  ?>"><li id="li_2"><i class="fa-brands  fa-instagram fa-2xl instagram"style="color: #e81f76;"></i></li><a>
   <?php 
   }if ($links['whatsapp']) {?>
-      <a href="<?php echo esc_html( 'https://' . $links['whatsapp'] ) ?>"><li id="li_2"><i class="fa-brands  fa-whatsapp fa-2xl " style="color: #075E54;"></i></li><a>
+      <a href="<?php echo  'https://' . $links['whatsapp']  ?>"><li id="li_2"><i class="fa-brands  fa-whatsapp fa-2xl " style="color: #075E54;"></i></li><a>
   <?php 
   }
     ?>
