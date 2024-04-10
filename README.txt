@@ -1,42 +1,39 @@
-=== Vaslino ===
-Contributors: parsa01
-Donate link: #
-Tags: social,
-Requires at least: 3.0.1
-Requires PHP: 7.4
-Tested up to: 6.2
-Stable tag: 1.0.0
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
-The Vaslino allows you to add social media icons to your application and web pages and your customers can connect to your social networks.
-== Description ==
-Go to the page or post where you want to add social network icons.
-Click the "Add Social Networks" button in the editor toolbar.
-Select the social networks you want to add.
-Enter the URLs for your social network profiles.
-Click the "Insert" button to add the icons to your page or post.
-== Installation ==
-This section describes how to install the plugin and get it working.
-e.g.
-1. Upload `Vaslino` to the `/wp-content/plugins/` directory
-2. Activate the plugin through the 'Plugins' menu in WordPress
+# Vaslino WordPress Plugin 💻
 
-== Frequently Asked Questions ==
-1- How should i add another social media?
-It's easy. just contact user
+Vaslino is a WordPress plugin that allows site managers to easily add social media icons as a dropdown menu at the bottom of their site to notify users.
 
-== Screenshots ==
-1. Menu upload for Users
-2. Settings for Users
+## Features 🚀
 
-== Changelog ==
-= 1.0 =
-* A change since the previous version.
-* Another change.
-= 0.5 =
-* List versions from most recent at top to oldest at bottom.
-== Upgrade Notice ==
-= 1.0 =
-Upgrade notices describe the reason a user should upgrade. No more than 300 characters.
-= 0.5 =
-This version fixes a security related bug. Upgrade immediately.
+- Add social media icons as a dropdown menu at the bottom of the site.
+- Notify users about your social media presence.
+- Customize the appearance and behavior of the social media dropdown.
+
+## Installation 🛠️
+
+1. Download the latest release of Vaslino from the (https://github.com/Parsa-mrz/Vaslino).
+2. Upload the downloaded `.zip` file to your WordPress site.
+3. Navigate to the WordPress admin dashboard and go to Plugins -> Add New.
+4. Click on the "Upload Plugin" button and select the Vaslino `.zip` file you downloaded.
+5. Activate the plugin.
+
+## Usage 📋
+
+1. After activating the plugin, go to the Vaslino settings page in the WordPress admin dashboard.
+2. Configure the social media icons you want to display in the dropdown menu.
+3. Customize the appearance and behavior of the dropdown menu according to your preferences.
+4. Save your settings.
+
+## Contributing 🤝
+
+Contributions are welcome! Here are some ways you can contribute to Vaslino:
+
+- Report bugs or suggest new features by (https://github.com/Parsa-mrz/Vaslino/issues).
+- Contribute code by forking the repository and creating a pull request.
+
+## License 📄
+
+This project is licensed under the [MIT License](LICENSE).
+
+## Support 📧
+
+For any questions or issues regarding Vaslino, please (mailto:Mirzaie_parsa@protonmail.ch).
